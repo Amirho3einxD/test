@@ -1,17 +1,6 @@
-a = int(input("Number1:"))
-b = int(input("Number2:"))
-c = int(input("Number3:"))
-d = int(input("Number4:"))
+x = int(input("enternumber:"))
 
-if a <= b :
-    x=a
+if x == 0 :print("0")
 else:
-    x=b
-if c<=d : y=c
-else: y=d
-
-if x<=y:print(x)
-else: print(y)
-
-      
-
+ if x % 2 == 0:print("زوج")
+ else:print("فرد")
